@@ -15,7 +15,7 @@
     margin-right: 20px;
     margin-left:  20px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: auto;
   
     font-family: 'Nanum Gothic', sans-serif;
   }
@@ -28,11 +28,12 @@
     flex: 1;
     font-size: 13px;
     color: black;
+    margin-bottom: 5px;
+    
   }
   .updated_news_red{
     color: whitesmoke;
     background-color:coral;
-  
     font-size: 14px;
     border-radius: 3px;
   }
@@ -79,8 +80,8 @@
     flex: 1;
   }
   .miniroom_gif{
-    width: 620px;
-    height: 330px;
+    width: 560px;
+    height: 270px;
 
     margin-top: 15px;
     margin-left: 25px;
