@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a3a3a3;
+    background-image: url("../static/images/pattern.png");
+    background-size: 100px;
+}
+
+.bookcover {
+    background-color:gray;
+    border-radius: 9px;
+    border: 10px solid #738186;
+    width: 1100px;
+    height: 700px;
+    margin: 100px auto;
+    margin-bottom: 300px;
+    position: relative;
+}
+
+.bookdot {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    border-style: dashed;
+    color: whitesmoke;
+    border-radius: 9px;
+}
+
+.page {
+    position: absolute;
+    display: flex;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(252, 252, 252, 0.815);
+    border-radius: 9px;
+}
+
+.home {
+    flex-direction: column;
+    flex: 1;
+}
+
+.upside_bar {
+    flex: 0.1;
+    color: black;
+    font-size: 15px;
+}
+
+.today {
+    color: orange;
+    font-size: 20px;
+}
+
+.title {
+    font-family: 'Stylish', cursive;
+    font-size: 25px;
+}
+
+.github {
+    font-size: 15px;
+    color: orange;
+    text-decoration: none;
+}
+
+.home_main {
+    display: flex;
+    flex: 1;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    border: 3px solid silver;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 50px;
+    height: 580px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.profile_1 {
+    flex: 0.6;
+}
+
+.profile_image {
+    width: 180px;
+    height: 150px;
+    margin: 12px;
+    border-radius: 7px;
+}
+.profile_2{
+    flex: 1;
+  
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.profile_3{
+    flex:0.1;
+    color: black;
+    font-size: 15px;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+.mbti {
+    font-size: 15px;
+    color: green;
+    text-decoration: none;
+}
+.profile_dropdown {
+    flex: 0;
+    color: black;
+      border: 1px solid #c9d4da;
+      padding: 5px;
+      margin-top: 10px;
+      font-size: 0.8rem;
+      position: relative;
+}
+.triangle_down {
+    width: 0;
+    height: 0;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    border-top: 5px solid #838383;
+}
+.dropdown_btn {
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+  
+.dropdown_content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+  
+.profile_dropdown:hover > .dropdown_content {
+    display: block;
+}
+  
+.dropdown_content > a{
+    display: block;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 6px;
+    color: black;
+    text-decoration: none;
+}
+  
+.dropdown_content > a:hover {
+    background-color: #f1f1f1;
+}
+
+.home_contents{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    border: 1px solid silver;
+    border-radius: 9px;
+    background-color: white;
+}
+
+  .menu_bar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.1;
+    margin-top: 70px;
+    margin-bottom: 400px;
+    margin-right: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+
+  .menu_bar > a:hover{
+    background-color:#4F92CD;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

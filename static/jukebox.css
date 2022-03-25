@@ -1,0 +1,118 @@
+.music_contents{
+    overflow: auto;
+    
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+
+    color: black;
+
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.music_title{
+    margin: 10px;
+    height: 35px;
+    
+    font-size: 14px;
+    font-weight:700;
+    line-height: 35px;
+
+    background-color: whitesmoke;
+}
+.music_container{
+    display: flex;
+}
+.music_picture{
+    flex: 0.6;
+
+    background-size: cover; 
+
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+
+}
+.music_img > img {
+    width: 330px;
+    height: 250px;
+    margin-top: 15px;
+}
+.music_text{
+    flex: 1;
+
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+.text {
+    color: orange;
+}
+.menu_button1{
+    flex: 1;
+    background-color: steelblue;
+    color: whitesmoke;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .menu_button2{
+    flex: 1;
+    background-color: steelblue;
+    color: whitesmoke;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .menu_button3{
+    flex: 1;
+    background-color: steelblue;
+    color: whitesmoke;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .menu_button4{
+    flex: 1;
+    background-color: rgb(74, 74, 158);
+    color: whitesmoke;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-decoration: none;
+    font-size: 13px;
+  }

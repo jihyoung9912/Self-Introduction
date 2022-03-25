@@ -1,0 +1,104 @@
+.movie{
+    position: absolute;
+    top: 30px;
+    bottom: 15px;
+    left: 5px;
+    right: 5px;
+    overflow: auto;
+}
+.movie_contents{
+    margin: 10px;
+    border: 3px solid silver;
+    border-radius: 10px;
+}
+.movie_title{
+    color: steelblue;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.movie_text{
+    color: black;
+
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Nanum Gothic', cursive;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.movie_container {
+    border: 10px sloid silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_button1{
+    flex: 1;
+    background-color: steelblue;
+    color: whitesmoke;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .menu_button2{
+    flex: 1;
+    background-color: steelblue;
+    color: whitesmoke;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .menu_button3{
+    flex: 1;
+    background-color:  rgb(74, 74, 158);
+    color: whitesmoke;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .menu_button4{
+    flex: 1;
+    background-color: steelblue;
+    color: whitesmoke;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-decoration: none;
+    font-size: 13px;
+  }
